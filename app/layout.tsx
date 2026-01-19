@@ -2,7 +2,7 @@ import { ThemeModeScript } from 'flowbite-react';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import { ThemeInit } from '../.flowbite-react/init';
-import CookieBanner from './components/CookieBanner/CookieBanner';
+
 import Header from './components/drawer/header';
 import GlobalSpinner from './components/spinner/GlobalSpinner';
 import Toaster from './components/toaster/Toaster';
@@ -55,9 +55,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <div
               style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
               className="fixed bottom-0 left-0 right-0 z-50 flex justify-center"
-            >
-              <CookieBanner />
-            </div>
+            ></div>
           </ThemeWrapper>
         </DrawerProvider>
       </body>
