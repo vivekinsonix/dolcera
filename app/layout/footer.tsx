@@ -6,9 +6,6 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import NewsletterModal from '../(pages)/newsletter/news-letter';
 import { useDrawer } from '../context/DrawerContext';
 import { apiClient } from '../services/apiService';
-import CookiePreferencesModal from '../cookie-preferences/CookiePreferencesModal';
-import ResponsibleDisclosureModal from '../components/responsible-disclosure/ResponsibleDisclosureModal';
-import HoverOverlayImages from '../components/drawer/logoInso';
 
 const FollowIcons = React.memo(() => {
   const openLink = useCallback((url: string) => {

@@ -2604,7 +2604,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 const advisors = [
     '/teams/samir.jpg',
-    '/teams/lg.jpg',
+    '/teams/LG.jpg',
     '/teams/mb.jpg',
     '/teams/Arron_Zhu.jpg',
     '/teams/Stanely_Zheng.jpg',
