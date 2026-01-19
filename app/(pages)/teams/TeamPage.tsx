@@ -79,7 +79,7 @@ export default function TeamPage() {
           {teamMembers.map((member, idx) => (
             <Card
               key={idx}
-              className="p-8 rounded-2xl bg-primary-50 dark:border-primary dark:bg-secondary-dark  shadow-lg text-center flex flex-col items-center transition-transform duration-300 hover:scale-[1.03]"
+              className="p-8 rounded-2xl bg-primary-50 dark:border-primary dark:bg-gray-800  shadow-lg text-center flex flex-col items-center transition-transform duration-300 hover:scale-[1.03]"
             >
               <Avatar img={member.image} rounded={true} size="xl" className="mb-4" />
               {member.social.linkedin && (

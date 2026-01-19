@@ -124,7 +124,7 @@ const Header: React.FC = () => {
           <Link
             href="/#blogs"
             onClick={() => setIsMenuOpen(false)}
-            className={`dark:text-primary-50 ${
+            className={`dark:text-primary-50 inline-block text-left pb-4 ${
               scrolled ? 'text-black' : 'text-white'
             } hover:text-blue-400 text-lg md:text-base`}
           >
