@@ -161,7 +161,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <Link href="/blogs" className="mt-10 mx-auto text-center w-full inline-block text-blue-500 hover:underline">
+        <Link href="/#projects" className="mt-10 mx-auto text-center w-full inline-block text-blue-500 hover:underline">
           View All Projects →
         </Link>
       </section>

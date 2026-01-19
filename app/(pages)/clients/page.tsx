@@ -40,11 +40,11 @@ export default function TeamPage() {
           {teamMembers.map((member, idx) => (
             <Card
               key={idx}
-              className="p-8 rounded-2xl bg-secondary dark:bg-secondary-dark border border-gray-100 dark:border-secondary-dark shadow-lg text-center flex flex-col items-center transition-transform duration-300 hover:scale-[1.03]"
+              className="p-8 rounded-2xl  border border-gray-100 dark:border-secondary-dark shadow-lg text-center flex flex-col items-center transition-transform duration-300 hover:scale-[1.03]"
             >
               <Avatar img={member.image} rounded={false} size="xl" className="mb-4" />
 
-              <h2 className="text-xl md:text-2xl font-bold mb-3 leading-snug">{member.name}</h2>
+              <h2 className="text-xl dark:!text-primary md:text-2xl font-bold mb-3 leading-snug">{member.name}</h2>
             </Card>
           ))}
         </div>

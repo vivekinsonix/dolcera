@@ -2420,6 +2420,10 @@
     background-color: #5850ec !important;
   }
 
+  .\!bg-primary-50 {
+    background-color: #e8eaf6 !important;
+  }
+
   .bg-black {
     background-color: var(--color-black);
   }
@@ -4618,6 +4622,18 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    .dark\:\!bg-primary-50 {
+      background-color: #e8eaf6 !important;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:\!bg-white {
+      background-color: var(--color-white) !important;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     .dark\:bg-black\/70 {
       background-color: #000000b3;
     }
@@ -4803,6 +4819,12 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    .dark\:\!text-primary {
+      color: #3f51b5 !important;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     .dark\:\!text-white {
       color: var(--color-white) !important;
     }
@@ -4847,6 +4869,12 @@
   @media (prefers-color-scheme: dark) {
     .dark\:text-gray-900 {
       color: #111827;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:text-primary {
+      color: #3f51b5;
     }
   }
 

@@ -54,7 +54,7 @@ const customTheme = createTheme({
   },
   card: {
     root: {
-      base: 'flex rounded-lg border-0 bg-secondary dark:bg-secondary-dark shadow-md dark:border-gray-700',
+      base: 'flex rounded-lg border-0  !bg-primary-50 dark:!bg-primary-50 shadow-md dark:border-gray-700',
       children: 'flex h-full flex-col justify-center gap-4 p-0',
       horizontal: {
         off: 'flex-col',
