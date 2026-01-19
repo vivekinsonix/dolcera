@@ -85,18 +85,11 @@ export default function About({ ourLegacy, coreDifferentiars, loading }: Props) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }} />
       </Head>
 
-      <main
-        id="about"
-        className=" py-16 dark:bg-foreground dark:text-gray-200 md:pt-38 md:pb-24"
-        aria-labelledby="about-heading"
-      >
+      <main id="about" className=" py-16 dark:bg-foreground  md:pt-38 md:pb-24" aria-labelledby="about-heading">
         <div className="container mx-auto px-4 text-center">
           {/* Header */}
           <header className="mb-12">
-            <p
-              className="mb-2 text-sm font-medium tracking-wider dark:text-gray-400 text-gray-800 uppercase"
-              aria-label="Section name"
-            >
+            <p className="mb-2 text-sm font-medium tracking-wider  text-gray-400 uppercase" aria-label="Section name">
               {ourLegacy?.section_name}
             </p>
 
@@ -113,15 +106,15 @@ export default function About({ ourLegacy, coreDifferentiars, loading }: Props) 
           <div className="mt-12 grid grid-cols-1 items-center gap-12 md:mt-16 md:grid-cols-2">
             {/* Text */}
             <article className="order-2  space-y-6 text-left md:order-1" id="about-description">
-              <p className="text-base dark:text-gray-300 md:text-lg lg:text-lg ">
+              <p className="text-base  md:text-lg lg:text-lg ">
                 Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter
                 experts analyze several million patents a year using our machine-learning platform.
               </p>
-              <p className="text-base dark:text-gray-300 md:text-lg lg:text-lg ">
+              <p className="text-base  md:text-lg lg:text-lg ">
                 We offer industry-leading software platforms, and a suite of services in the intellectual property space
                 for dozens of world’s leading corporations.
               </p>
-              <p className="text-base dark:text-gray-300 md:text-lg lg:text-lg ">
+              <p className="text-base  md:text-lg lg:text-lg ">
                 Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter
                 experts analyze several million patents a year using our machine-learning platform.
               </p>

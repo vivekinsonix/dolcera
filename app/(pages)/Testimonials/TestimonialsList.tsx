@@ -66,7 +66,7 @@ export default function VideoTestimonialSlider() {
       >
         {videoTestimonials.map((testimonial, i) => (
           <SwiperSlide key={i}>
-            <div className="flex flex-col md:flex-row items-center bg-white dark:bg-transparent rounded-xl shadow-lg overflow-hidden">
+            <div className="flex flex-col md:flex-row items-center bg-white  rounded-xl shadow-lg overflow-hidden">
               {/* Video */}
               <div className="w-full md:w-1/2 flex justify-center">
                 <video
@@ -86,13 +86,13 @@ export default function VideoTestimonialSlider() {
               {/* Text */}
               <div className="w-full md:w-1/2 p-6 relative  flex flex-col justify-center">
                 {/* Chat bubble */}
-                <div className=" bg-secondary-50 relative  dark:bg-primary-600 text-gray-900 dark:text-white p-10 rounded-xl rounded-bl-none shadow-md">
+                <div className=" bg-secondary-50 relative   text-gray-900  p-10 rounded-xl rounded-bl-none shadow-md">
                   <p className="mb-3 text-xl italic">"{testimonial.message}"</p>
                   <p className="font-semibold text-lg">{testimonial.name}</p>
-                  <p className="text-lg text-primary-900 dark:text-white">{testimonial.title}</p>
+                  <p className="text-lg text-primary-900 ">{testimonial.title}</p>
 
                   {/* Bubble tail */}
-                  <div className="absolute top-24  -left-2 w-4 h-4 bg-secondary-50 dark:bg-primary-600 rotate-48 -translate-y-2"></div>
+                  <div className="absolute top-24  -left-2 w-4 h-4 bg-secondary-50  rotate-48 -translate-y-2"></div>
                 </div>
               </div>
             </div>

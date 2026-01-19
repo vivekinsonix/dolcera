@@ -68,7 +68,7 @@ const teamMembers = [
 
 export default function TeamPage() {
   return (
-    <section className="min-h-screen w-full dark:bg-foreground dark:text-white">
+    <section className="min-h-screen w-full dark:bg-foreground ">
       <main className="container mx-auto max-w-7xl px-4 py-10">
         <header className="my-10 text-center ">
           <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl mt-5">Meet Our Team</h1>
@@ -79,7 +79,7 @@ export default function TeamPage() {
           {teamMembers.map((member, idx) => (
             <Card
               key={idx}
-              className="p-8 rounded-2xl bg-primary-50 dark:border-primary dark:bg-gray-800  shadow-lg text-center flex flex-col items-center transition-transform duration-300 hover:scale-[1.03]"
+              className="p-8 rounded-2xl bg-primary-50  shadow-lg text-center flex flex-col items-center transition-transform duration-300 hover:scale-[1.03]"
             >
               <Avatar img={member.image} rounded={true} size="xl" className="mb-4" />
               {member.social.linkedin && (
@@ -88,7 +88,7 @@ export default function TeamPage() {
                 </div>
               )}
               <h2 className="text-xl md:text-2xl font-bold mb-3 leading-snug">{member.name}</h2>
-              <p className="text-gray-600 dark:text-gray-300 mb-4 leading-relaxed">{member.role}</p>
+              <p className="text-gray-600  mb-4 leading-relaxed">{member.role}</p>
 
               <Link href="#" className="text-blue-500 hover:text-blue-700 hover:underline">
                 Learn More →

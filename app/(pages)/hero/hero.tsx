@@ -126,7 +126,7 @@ export default function Hero({ subHeading, heading, loading, ourLegacy, coreDiff
         /> */}
 
         {/* Overlay */}
-        <div className="absolute inset-0 bg-black/50 dark:bg-black/70 pointer-events-none" />
+        <div className="absolute inset-0 bg-black/70 dark:bg-black/70 pointer-events-none" />
 
         {/* Content */}
         <div className="relative container mx-auto px-4">

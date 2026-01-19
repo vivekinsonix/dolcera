@@ -29,7 +29,7 @@ const teamMembers = [
 
 export default function TeamPage() {
   return (
-    <section className="min-h-screen w-full dark:bg-foreground dark:text-white">
+    <section className="min-h-screen w-full dark:bg-foreground ">
       <main className="container mx-auto max-w-7xl px-4 py-10">
         <header className="my-10 text-center ">
           <h1 className="text-4xl font-extrabold tracking-tight md:text-5xl mt-5">Our Clients</h1>

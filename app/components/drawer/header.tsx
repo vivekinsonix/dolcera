@@ -1,20 +1,21 @@
 'use client';
 
+import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { Button, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from 'flowbite-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
 
 import { useDrawer } from '../../context/DrawerContext';
 import AppDrawer from './AppDrawer';
 import CaseStudiesDropdown from './CaseStudiesDropdown';
-import WhoWeServe from './WhoWeServe';
+// import WhoWeServe from './WhoWeServe';
 
 const Logo = () => {
   return (
     <NavbarBrand as={Link} href="/">
       <Image src="/logo/logo.png" width={170} height={40} className="dark:hidden" alt="Insonix" />
-      <Image src="/logo/logo_dolcera-dark.svg" width={170} height={40} className="hidden dark:block" alt="Insonix" />
+      <Image src="/logo/logo.png" width={170} height={40} className="hidden dark:block" alt="Insonix" />
     </NavbarBrand>
   );
 };
@@ -22,25 +23,28 @@ const Logo = () => {
 export type DropdownKey = 'who' | 'solutions' | null;
 
 const Header: React.FC = () => {
-  const { isDrawerOpen, openDrawer, closeDrawer } = useDrawer();
+  const pathname = usePathname();
+  const isHomePage = pathname === '/';
+
+  const { isDrawerOpen, closeDrawer } = useDrawer();
   const [openDropdown, setOpenDropdown] = useState<DropdownKey>(null);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false); // ✅ Track scroll
+  const [scrolled, setScrolled] = useState(false);
 
-  // ✅ Scroll listener
+  // Scroll listener (only matters on home page)
   useEffect(() => {
+    if (!isHomePage) return;
+
     const handleScroll = () => {
-      if (window.scrollY > 200) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
+      setScrolled(window.scrollY > 200);
     };
 
     window.addEventListener('scroll', handleScroll);
-
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [isHomePage]);
+
+  // Text color logic
+  const navTextColor = isHomePage ? (scrolled ? 'text-black' : 'text-white') : 'text-black';
 
   return (
     <>
@@ -48,7 +52,7 @@ const Header: React.FC = () => {
         fluid
         rounded
         className={`fixed top-0 left-0 right-0 z-10 py-2 shadow-none transition-colors duration-300 ${
-          scrolled ? 'bg-white dark:bg-gray-900' : 'backdrop-blur-none bg-transparent'
+          isHomePage ? (scrolled ? 'bg-white shadow dark:bg-white' : 'bg-transparent') : 'bg-white dark:bg-white'
         }`}
       >
         <div className="flex w-full items-center justify-between">
@@ -56,46 +60,25 @@ const Header: React.FC = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex gap-8 items-center">
-            {/* <WhoWeServe
-              openDropdown={openDropdown}
-              setOpenDropdown={setOpenDropdown}
-              setIsMenuOpen={() => setIsMenuOpen(false)}
-            /> */}
             <CaseStudiesDropdown
               openDropdown={openDropdown}
               setOpenDropdown={setOpenDropdown}
               setIsMenuOpen={() => setIsMenuOpen(false)}
             />
-            <Link
-              href="/#clients"
-              className={`dark:text-primary-50 ${
-                scrolled ? 'text-black' : 'text-white'
-              } hover:text-blue-400 text-lg md:text-base`}
-            >
+
+            <Link href="/#clients" className={` ${navTextColor} hover:text-blue-400`}>
               Our Clients
             </Link>
-            <Link
-              href="/#projects"
-              className={`dark:text-primary-50 ${
-                scrolled ? 'text-black' : 'text-white'
-              } hover:text-blue-400 text-lg md:text-base`}
-            >
+
+            <Link href="/#projects" className={` ${navTextColor} hover:text-blue-400`}>
               Projects
             </Link>
-            <Link
-              href="/#teams"
-              className={`dark:text-primary-50 ${
-                scrolled ? 'text-black' : 'text-white'
-              } hover:text-blue-400 text-lg md:text-base`}
-            >
+
+            <Link href="/#teams" className={` ${navTextColor} hover:text-blue-400`}>
               Teams
             </Link>
-            <Link
-              href="/#blogs"
-              className={`dark:text-primary-50 ${
-                scrolled ? 'text-black' : 'text-white'
-              } hover:text-blue-400 text-lg md:text-base`}
-            >
+
+            <Link href="/#blogs" className={` ${navTextColor} hover:text-blue-400`}>
               Blogs
             </Link>
           </div>
@@ -110,34 +93,22 @@ const Header: React.FC = () => {
         </div>
 
         {/* Mobile Menu */}
-        <NavbarCollapse className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden text-center px-3 mt-0`}>
-          {/* <WhoWeServe
-            openDropdown={openDropdown}
-            setOpenDropdown={setOpenDropdown}
-            setIsMenuOpen={() => setIsMenuOpen(false)}
-          /> */}
+        <NavbarCollapse className={`${isMenuOpen ? 'block' : 'hidden'} md:hidden text-center px-3`}>
           <CaseStudiesDropdown
             openDropdown={openDropdown}
             setOpenDropdown={setOpenDropdown}
             setIsMenuOpen={() => setIsMenuOpen(false)}
           />
+
           <Link
             href="/#blogs"
             onClick={() => setIsMenuOpen(false)}
-            className={`dark:text-primary-50 inline-block text-left pb-4 ${
-              scrolled ? 'text-black' : 'text-white'
-            } hover:text-blue-400 text-lg md:text-base`}
+            className={`dark:text-primary-50 block pb-4 ${navTextColor} hover:text-blue-400`}
           >
             Blogs
           </Link>
-          <Button
-            outline
-            className="mt-3"
-            // onClick={() => {
-            //   setIsMenuOpen(false);
-            //   isDrawerOpen ? closeDrawer() : openDrawer();
-            // }}
-          >
+
+          <Button outline className="mt-3">
             Contact Us
           </Button>
         </NavbarCollapse>

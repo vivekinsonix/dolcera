@@ -5,7 +5,7 @@ import { ThemeProvider, createTheme } from 'flowbite-react';
 const customTheme = createTheme({
   navbar: {
     root: {
-      base: 'bg-transparent border-0 dark:bg-transparent dark:border-b dark:border-gray-900 py-0 rounded-none text-accent dark:hover:text-accent',
+      base: 'bg-transparent border-0 dark:bg-transparent  py-0 rounded-none text-accent dark:hover:text-accent',
       rounded: {
         on: 'rounded-none text-accent hover:text-accent',
         off: 'text-accent hover:text-accent dark:hover:text-accent ',

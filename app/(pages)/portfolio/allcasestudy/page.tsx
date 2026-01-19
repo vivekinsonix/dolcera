@@ -26,7 +26,7 @@ export default function Portfolio() {
       <section id="projects" className="py-16 md:px-0 px-4 md:py-24 dark:bg-foreground bg-white">
         <div className="container mx-auto text-center">
           <p className="text-sm font-medium text-gray-400 mb-2 uppercase tracking-wider"> What We Do</p>
-          <h1 className="text-3xl md:text-5xl dark:text-white font-extrabold leading-tight">Our Projects</h1>
+          <h1 className="text-3xl md:text-5xl font-extrabold leading-tight">Our Projects</h1>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4  mt-10">
             <Link href="#" className="group w-[100%] h-[350px] relative overflow-hidden shadow-lg cursor-pointer block">

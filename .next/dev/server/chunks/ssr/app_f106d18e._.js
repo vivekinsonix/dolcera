@@ -330,12 +330,12 @@ function BlogsHomePage() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 id: "blogs",
-                className: "w-full py-16 md:py-24 bg-white dark:bg-foreground dark:text-gray-200",
+                className: "w-full py-16 md:py-24 bg-white dark:bg-foreground ",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto text-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-sm font-medium uppercase tracking-wider mb-2 text-gray-800 dark:text-gray-400",
+                            className: "text-sm font-medium uppercase tracking-wider mb-2 text-gray-400 ",
                             children: "Recommended Resources"
                         }, void 0, false, {
                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
@@ -347,7 +347,7 @@ function BlogsHomePage() {
                             children: "Insights to Keep You Ahead of the Curve"
                         }, void 0, false, {
                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                            lineNumber: 109,
+                            lineNumber: 107,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -360,7 +360,7 @@ function BlogsHomePage() {
                                             className: "md:col-span-2 space-y-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl",
+                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm  bg-white shadow-xl",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/blog3.jpg",
@@ -370,18 +370,18 @@ function BlogsHomePage() {
                                                             className: "transition-transform duration-[500ms] ease-linear group-hover:scale-105"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                            lineNumber: 118,
+                                                            lineNumber: 116,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
+                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90  px-5 py-1  backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm  opacity-80 mb-1",
                                                                     children: "Aprail 2, 2024"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 127,
+                                                                    lineNumber: 125,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -389,7 +389,7 @@ function BlogsHomePage() {
                                                                     children: "The Pulse of American Innovation: A Decade of Patent Filings in the USA"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 129,
+                                                                    lineNumber: 127,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -397,32 +397,32 @@ function BlogsHomePage() {
                                                                     children: "Protection versus progress. Who will shape the future?"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 131,
+                                                                    lineNumber: 129,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     href: "#",
-                                                                    className: "mt-4 block font-semibold text-primary-200 opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
+                                                                    className: "mt-4 block font-semibold text-primary opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
                                                                     children: "Read More →"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 135,
+                                                                    lineNumber: 133,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 124,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                    lineNumber: 117,
+                                                    lineNumber: 115,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl",
+                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm  bg-white shadow-xl",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Qualcomm-and-Samsung.jpg",
@@ -432,18 +432,18 @@ function BlogsHomePage() {
                                                             className: "transition-transform duration-[500ms] ease-linear group-hover:scale-105"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                            lineNumber: 144,
+                                                            lineNumber: 142,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
+                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90  px-5 py-1  backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm  opacity-80 mb-1",
                                                                     children: "Aprail 2, 2024"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 153,
+                                                                    lineNumber: 151,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -451,7 +451,7 @@ function BlogsHomePage() {
                                                                     children: "Qualcomm and Samsung Drive India’s Patent Filing Surge"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 155,
+                                                                    lineNumber: 153,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -459,34 +459,34 @@ function BlogsHomePage() {
                                                                     children: "Protection versus progress. Who will shape the future?"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 157,
+                                                                    lineNumber: 155,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                     href: "#",
-                                                                    className: "mt-4 block font-semibold text-primary-200 opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
+                                                                    className: "mt-4 block font-semibold text-primary opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
                                                                     children: "Read More →"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                    lineNumber: 161,
+                                                                    lineNumber: 159,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                            lineNumber: 152,
+                                                            lineNumber: 150,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                    lineNumber: 143,
+                                                    lineNumber: 141,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 114,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -495,10 +495,10 @@ function BlogsHomePage() {
                                                 variant: "featured"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                lineNumber: 174,
+                                                lineNumber: 172,
                                                 columnNumber: 19
                                             }, this) : featuredBlog && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                className: "group relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl",
+                                                className: "group relative w-full aspect-square overflow-hidden rounded-sm  bg-white shadow-xl",
                                                 children: [
                                                     featuredBlog.video?.[0]?.url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                                                         src: featuredBlog.video[0].url,
@@ -509,7 +509,7 @@ function BlogsHomePage() {
                                                         className: "h-48 w-full object-cover"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                        lineNumber: 179,
+                                                        lineNumber: 177,
                                                         columnNumber: 25
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
@@ -520,18 +520,18 @@ function BlogsHomePage() {
                                                         className: "w-full transition-transform duration-[500ms] group-hover:scale-105"
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                        lineNumber: 189,
+                                                        lineNumber: 187,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute text-left inset-x-0 bottom-0 md:h-[240px]  h-[110px]  overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-4 dark:text-white backdrop-blur-md transition-all duration-[1200ms] group-hover:h-full group-hover:px-7 group-hover:py-10",
+                                                        className: "absolute text-left inset-x-0 bottom-0 md:h-[240px]  h-[110px]  overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90  px-5 py-4  backdrop-blur-md transition-all duration-[1200ms] group-hover:h-full group-hover:px-7 group-hover:py-10",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "mb-2 text-sm  opacity-80",
                                                                 children: "May 15, 2024"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 198,
+                                                                lineNumber: 196,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -539,7 +539,7 @@ function BlogsHomePage() {
                                                                 children: "Summary Report from 3GPP plenaries"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 200,
+                                                                lineNumber: 198,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -547,33 +547,33 @@ function BlogsHomePage() {
                                                                 children: "3GPP’s most recent round of plenary gatherings were held in Maastricht, Netherlands, from 18th to 22nd March, 2024. The gathering witnessed a varied spectrum of stakeholders and close to 1700 technical documents (TDoc) were submitted for discussion. In view of 3GPP’s way forward development plans for 5G Advanced"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 202,
+                                                                lineNumber: 200,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                 href: `/blogs/detail/${featuredBlog?.slug}`,
-                                                                className: "mt-4 block font-semibold text-primary-200 opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
+                                                                className: "mt-4 block font-semibold text-primary opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
                                                                 children: "Read More →"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 209,
+                                                                lineNumber: 207,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                        lineNumber: 197,
+                                                        lineNumber: 195,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                lineNumber: 177,
+                                                lineNumber: 175,
                                                 columnNumber: 21
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                            lineNumber: 172,
+                                            lineNumber: 170,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("aside", {
@@ -582,19 +582,19 @@ function BlogsHomePage() {
                                                 length: 3
                                             }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(BlogSkeleton, {}, i, false, {
                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                    lineNumber: 224,
+                                                    lineNumber: 222,
                                                     columnNumber: 61
                                                 }, this)) : rightBlogs.map((blog)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                    className: "group relative text-left h-[160px] overflow-hidden rounded-sm bg-secondary-dark/10 dark:bg-secondary-dark/95 shadow-xl",
+                                                    className: "group relative text-left h-[160px] overflow-hidden rounded-sm bg-white  shadow-xl",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-white via-white to-transparent dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-4 dark:text-white  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0",
+                                                        className: "absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-white via-white to-transparent   px-5 py-4   md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "mb-2 text-sm dark:text-gray-300 opacity-80",
                                                                 children: "Oct 08, 2020"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 231,
+                                                                lineNumber: 229,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -602,7 +602,7 @@ function BlogsHomePage() {
                                                                 children: "Dolcera analysis in IAM"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 233,
+                                                                lineNumber: 231,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -610,53 +610,53 @@ function BlogsHomePage() {
                                                                 children: "If Nvidia purchases Arm it will create a processor patent powerhouse"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 235,
+                                                                lineNumber: 233,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                                                 href: "#",
-                                                                className: "mt-4 block font-semibold text-primary-200 opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
+                                                                className: "mt-4 block font-semibold text-primary opacity-0 transition-opacity duration-[500ms] group-hover:opacity-100",
                                                                 children: "Read More →"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                                lineNumber: 239,
+                                                                lineNumber: 237,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                        lineNumber: 230,
+                                                        lineNumber: 228,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, blog.slug, false, {
                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                                    lineNumber: 226,
+                                                    lineNumber: 224,
                                                     columnNumber: 23
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                            lineNumber: 222,
+                                            lineNumber: 220,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                    lineNumber: 114,
+                                    lineNumber: 112,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "/#blogs",
-                                    className: "mt-10 inline-block text-blue-500 hover:underline",
+                                    className: "mt-10 inline-block text-primary hover:underline",
                                     children: "View All Blogs →"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                                    lineNumber: 251,
+                                    lineNumber: 249,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(pages)/bloghome/page.tsx",
-                            lineNumber: 113,
+                            lineNumber: 111,
                             columnNumber: 11
                         }, this)
                     ]
@@ -920,7 +920,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
                 id: "about",
-                className: " py-16 dark:bg-foreground dark:text-gray-200 md:pt-38 md:pb-24",
+                className: " py-16 dark:bg-foreground  md:pt-38 md:pb-24",
                 "aria-labelledby": "about-heading",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 text-center",
@@ -929,12 +929,12 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                             className: "mb-12",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mb-2 text-sm font-medium tracking-wider dark:text-gray-400 text-gray-800 uppercase",
+                                    className: "mb-2 text-sm font-medium tracking-wider  text-gray-400 uppercase",
                                     "aria-label": "Section name",
                                     children: ourLegacy?.section_name
                                 }, void 0, false, {
                                     fileName: "[project]/app/(pages)/hero/about.tsx",
-                                    lineNumber: 96,
+                                    lineNumber: 92,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -944,13 +944,13 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                     children: "Dolcera is one of world’s largest patent analytics companies."
                                 }, void 0, false, {
                                     fileName: "[project]/app/(pages)/hero/about.tsx",
-                                    lineNumber: 103,
+                                    lineNumber: 96,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(pages)/hero/about.tsx",
-                            lineNumber: 95,
+                            lineNumber: 91,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -961,33 +961,33 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                     id: "about-description",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base dark:text-gray-300 md:text-lg lg:text-lg ",
+                                            className: "text-base  md:text-lg lg:text-lg ",
                                             children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
-                                            lineNumber: 116,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base dark:text-gray-300 md:text-lg lg:text-lg ",
+                                            className: "text-base  md:text-lg lg:text-lg ",
                                             children: "We offer industry-leading software platforms, and a suite of services in the intellectual property space for dozens of world’s leading corporations."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
-                                            lineNumber: 120,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base dark:text-gray-300 md:text-lg lg:text-lg ",
+                                            className: "text-base  md:text-lg lg:text-lg ",
                                             children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
-                                            lineNumber: 124,
+                                            lineNumber: 117,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/(pages)/hero/about.tsx",
-                                    lineNumber: 115,
+                                    lineNumber: 108,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("figure", {
@@ -1004,24 +1004,24 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                         onContextMenu: (e)=>e.preventDefault()
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/hero/about.tsx",
-                                        lineNumber: 132,
+                                        lineNumber: 125,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/(pages)/hero/about.tsx",
-                                    lineNumber: 131,
+                                    lineNumber: 124,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/(pages)/hero/about.tsx",
-                            lineNumber: 113,
+                            lineNumber: 106,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/(pages)/hero/about.tsx",
-                    lineNumber: 93,
+                    lineNumber: 89,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
@@ -1211,7 +1211,7 @@ function Hero({ subHeading, heading, loading, ourLegacy, coreDifferentiars, onSc
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "absolute inset-0 bg-black/50 dark:bg-black/70 pointer-events-none"
+                        className: "absolute inset-0 bg-black/70 dark:bg-black/70 pointer-events-none"
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/hero/hero.tsx",
                         lineNumber: 129,
@@ -1322,7 +1322,7 @@ function Portfolio() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-3xl md:text-5xl dark:text-white font-extrabold leading-tight",
+                            className: "text-3xl md:text-5xl font-extrabold leading-tight",
                             children: "Our Projects"
                         }, void 0, false, {
                             fileName: "[project]/app/(pages)/portfolio/allcasestudy/page.tsx",
@@ -1951,13 +1951,13 @@ function Clients() {
                 "0",
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                     id: "clients",
-                    className: "py-16 md:py-24 dark:bg-foreground bg-primary-50",
+                    className: "py-16 md:py-24  bg-primary-50",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "px-6 mx-auto text-center ",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm font-medium dark:text-white  mb-2 uppercase tracking-wider",
+                                    className: "text-sm font-medium  mb-2 uppercase tracking-wider",
                                     children: "clients"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(pages)/BrandCarousel/clients.tsx",
@@ -1965,7 +1965,7 @@ function Clients() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-3xl md:text-5xl dark:text-white  font-extrabold leading-tight",
+                                    className: "text-3xl md:text-5xl   font-extrabold leading-tight",
                                     children: "Our Esteemed Clients"
                                 }, void 0, false, {
                                     fileName: "[project]/app/(pages)/BrandCarousel/clients.tsx",
@@ -1985,7 +1985,7 @@ function Clients() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "/clients",
-                            className: "mt-10 mx-auto text-center dark:text-white w-full inline-block  hover:underline",
+                            className: "mt-10 mx-auto text-center text-primary  w-full inline-block  hover:underline",
                             children: "View All Clients →"
                         }, void 0, false, {
                             fileName: "[project]/app/(pages)/BrandCarousel/clients.tsx",
@@ -2083,7 +2083,7 @@ function VideoTestimonialSlider() {
             slidesPerView: 1,
             children: videoTestimonials.map((testimonial, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$swiper$2f$swiper$2d$react$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["SwiperSlide"], {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "flex flex-col md:flex-row items-center bg-white dark:bg-transparent rounded-xl shadow-lg overflow-hidden",
+                        className: "flex flex-col md:flex-row items-center bg-white  rounded-xl shadow-lg overflow-hidden",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-full md:w-1/2 flex justify-center",
@@ -2117,7 +2117,7 @@ function VideoTestimonialSlider() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "w-full md:w-1/2 p-6 relative  flex flex-col justify-center",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: " bg-secondary-50 relative  dark:bg-primary-600 text-gray-900 dark:text-white p-10 rounded-xl rounded-bl-none shadow-md",
+                                    className: " bg-secondary-50 relative   text-gray-900  p-10 rounded-xl rounded-bl-none shadow-md",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "mb-3 text-xl italic",
@@ -2140,7 +2140,7 @@ function VideoTestimonialSlider() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-lg text-primary-900 dark:text-white",
+                                            className: "text-lg text-primary-900 ",
                                             children: testimonial.title
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/Testimonials/TestimonialsList.tsx",
@@ -2148,7 +2148,7 @@ function VideoTestimonialSlider() {
                                             columnNumber: 19
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute top-24  -left-2 w-4 h-4 bg-secondary-50 dark:bg-primary-600 rotate-48 -translate-y-2"
+                                            className: "absolute top-24  -left-2 w-4 h-4 bg-secondary-50  rotate-48 -translate-y-2"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/Testimonials/TestimonialsList.tsx",
                                             lineNumber: 95,
@@ -2218,7 +2218,7 @@ function Testimonials() {
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                            className: "text-3xl md:text-5xl dark:text-white font-extrabold leading-tight",
+                            className: "text-3xl md:text-5xl  font-extrabold leading-tight",
                             children: " What Our Clients Say"
                         }, void 0, false, {
                             fileName: "[project]/app/(pages)/Testimonials/Testimonials.tsx",
@@ -2536,7 +2536,7 @@ function PartnerAdvisoryCouncil() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute -right-40 top-0 -z-10 h-[600px] w-[900px] rounded-full bg-gradient-to-br from-indigo-100 via-white to-pink-100 opacity-60 blur-3xl"
+                className: "absolute -right-40 top-0 -z-10 h-[600px] w-[900px] rounded-full bg-gradient-to-br from-primary-50 via-white to-secondary-200 opacity-90 blur-3xl"
             }, void 0, false, {
                 fileName: "[project]/app/(pages)/teamshome/page.tsx",
                 lineNumber: 25,
@@ -2554,7 +2554,7 @@ function PartnerAdvisoryCouncil() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "mb-16 text-3xl font-extrabold leading-tight dark:text-white  md:text-5xl",
+                        className: "mb-16 text-3xl font-extrabold leading-tight   md:text-5xl",
                         children: "Our Team"
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
@@ -2567,7 +2567,7 @@ function PartnerAdvisoryCouncil() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl font-semibold tracking-tight dark:!text-white ",
+                                        className: "text-4xl font-semibold tracking-tight  ",
                                         children: "Partner Advisory Council."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
@@ -2575,7 +2575,7 @@ function PartnerAdvisoryCouncil() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-6 max-w-xl text-lg leading-relaxed dark:!text-gray-200 text-slate-600",
+                                        className: "mt-6 max-w-xl text-lg leading-relaxed  ",
                                         children: "We partner with industry leaders who bring specialized expertise and deep insights, working together to help organizations navigate and overcome complex business challenges."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
