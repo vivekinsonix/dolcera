@@ -248,7 +248,7 @@ export default function BlogsHomePage() {
               </aside>
             </div>
 
-            <Link href="/blogs" className="mt-10 inline-block text-blue-500 hover:underline">
+            <Link href="/#blogs" className="mt-10 inline-block text-blue-500 hover:underline">
               View All Blogs →
             </Link>
           </main>
