@@ -44,8 +44,8 @@ const customTheme = createTheme({
     },
     color: {
       default:
-        'bg-secondary rounded-full uppercase border-secondary dark:text-white font-bold text-white hover:bg-secondary/90 cursor-pointer dark:bg-secondary focus:ring-none hover:scale-110 ' +
-        'dark:bg-primary dark:hover:bg-primary dark:focus:ring-none',
+        'bg-secondary rounded-full uppercase border-secondary dark:text-white border-0 font-bold text-white hover:bg-secondary/90 cursor-pointer dark:bg-secondary focus:ring-none hover:scale-110 ' +
+        'dark:bg-secondary dark:hover:bg-secondary/90 dark:focus:ring-none',
     },
     outlineColor: {
       default:

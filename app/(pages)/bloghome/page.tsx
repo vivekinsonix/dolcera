@@ -123,7 +123,7 @@ export default function BlogsHomePage() {
                     className="transition-transform duration-[500ms] ease-linear group-hover:scale-105"
                   />
 
-                  <div className="absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-primary-900/95 dark:via-primary-900/95 dark:to-secondary-dark/90 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10">
+                  <div className="absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10">
                     <p className="text-sm  opacity-80 mb-1">Aprail 2, 2024</p>
 
                     <h2 className="text-xl">The Pulse of American Innovation: A Decade of Patent Filings in the USA</h2>
@@ -149,7 +149,7 @@ export default function BlogsHomePage() {
                     className="transition-transform duration-[500ms] ease-linear group-hover:scale-105"
                   />
 
-                  <div className="absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-primary-900/95 dark:via-primary-900/95  dark:to-secondary-dark/90 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10">
+                  <div className="absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10">
                     <p className="text-sm  opacity-80 mb-1">Aprail 2, 2024</p>
 
                     <h2 className="text-xl">Qualcomm and Samsung Drive India’s Patent Filing Surge</h2>
@@ -194,7 +194,7 @@ export default function BlogsHomePage() {
                         className="w-full transition-transform duration-[500ms] group-hover:scale-105"
                       />
 
-                      <div className="absolute text-left inset-x-0 bottom-0 md:h-[240px]  h-[110px]  overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-primary-900/95 dark:via-primary-900/95  dark:to-secondary-dark/90 px-5 py-4 dark:text-white backdrop-blur-md transition-all duration-[1200ms] group-hover:h-full group-hover:px-7 group-hover:py-10">
+                      <div className="absolute text-left inset-x-0 bottom-0 md:h-[240px]  h-[110px]  overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-4 dark:text-white backdrop-blur-md transition-all duration-[1200ms] group-hover:h-full group-hover:px-7 group-hover:py-10">
                         <p className="mb-2 text-sm  opacity-80">May 15, 2024</p>
 
                         <h2 className="text-xl">Summary Report from 3GPP plenaries</h2>
@@ -227,7 +227,7 @@ export default function BlogsHomePage() {
                         key={blog.slug}
                         className="group relative text-left h-[160px] overflow-hidden rounded-sm bg-secondary-dark/10 dark:bg-secondary-dark/95 shadow-xl"
                       >
-                        <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-white via-white to-transparent dark:from-primary-900/95 dark:via-primary-900/95  dark:to-secondary-dark/95 px-5 py-4 dark:text-white  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0">
+                        <div className="absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-white via-white to-transparent dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-4 dark:text-white  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0">
                           <p className="mb-2 text-sm dark:text-gray-300 opacity-80">Oct 08, 2020</p>
 
                           <h2 className="text-xl">Dolcera analysis in IAM</h2>

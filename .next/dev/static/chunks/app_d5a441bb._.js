@@ -394,7 +394,7 @@ function BlogsHomePage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-primary-900/95 dark:via-primary-900/95 dark:to-secondary-dark/90 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
+                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm  opacity-80 mb-1",
@@ -456,7 +456,7 @@ function BlogsHomePage() {
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-primary-900/95 dark:via-primary-900/95  dark:to-secondary-dark/90 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
+                                                            className: "absolute inset-x-0 bottom-0 h-[120px] overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-1 dark:text-white backdrop-blur-md transition-all duration-[500ms] ease-linear group-hover:h-full group-hover:px-7 group-hover:py-10",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                     className: "text-sm  opacity-80 mb-1",
@@ -544,7 +544,7 @@ function BlogsHomePage() {
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute text-left inset-x-0 bottom-0 md:h-[240px]  h-[110px]  overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-primary-900/95 dark:via-primary-900/95  dark:to-secondary-dark/90 px-5 py-4 dark:text-white backdrop-blur-md transition-all duration-[1200ms] group-hover:h-full group-hover:px-7 group-hover:py-10",
+                                                        className: "absolute text-left inset-x-0 bottom-0 md:h-[240px]  h-[110px]  overflow-hidden rounded-t-sm  bg-gradient-to-t from-white via-white to-secondary-50/90 dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-4 dark:text-white backdrop-blur-md transition-all duration-[1200ms] group-hover:h-full group-hover:px-7 group-hover:py-10",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "mb-2 text-sm  opacity-80",
@@ -607,7 +607,7 @@ function BlogsHomePage() {
                                                 }, this)) : rightBlogs.map((blog)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
                                                     className: "group relative text-left h-[160px] overflow-hidden rounded-sm bg-secondary-dark/10 dark:bg-secondary-dark/95 shadow-xl",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-white via-white to-transparent dark:from-primary-900/95 dark:via-primary-900/95  dark:to-secondary-dark/95 px-5 py-4 dark:text-white  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0",
+                                                        className: "absolute inset-0 flex flex-col justify-end bg-gradient-to-t from-white via-white to-transparent dark:from-gray-900/95 dark:via-gray-900/95  dark:to-gray-900/95 px-5 py-4 dark:text-white  md:translate-y-[20%] translate-y-[0%] transition-transform duration-[500ms] ease-out group-hover:translate-y-0",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                 className: "mb-2 text-sm dark:text-gray-300 opacity-80",
@@ -2659,7 +2659,7 @@ function PartnerAdvisoryCouncil() {
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "mb-16 text-3xl font-extrabold leading-tight text-slate-900 md:text-5xl",
+                        className: "mb-16 text-3xl font-extrabold leading-tight dark:text-white  md:text-5xl",
                         children: "Our Team"
                     }, void 0, false, {
                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
@@ -2672,7 +2672,7 @@ function PartnerAdvisoryCouncil() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl font-semibold tracking-tight text-slate-900",
+                                        className: "text-4xl font-semibold tracking-tight dark:text-white text-slate-900",
                                         children: "Partner Advisory Council."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
@@ -2684,7 +2684,7 @@ function PartnerAdvisoryCouncil() {
                                         children: "We partner with industry leaders who bring specialized expertise and deep insights, working together to help organizations navigate and overcome complex business challenges."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                        lineNumber: 39,
+                                        lineNumber: 41,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2697,13 +2697,13 @@ function PartnerAdvisoryCouncil() {
                                                 children: "›"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                                lineNumber: 49,
+                                                lineNumber: 51,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 46,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -2723,17 +2723,17 @@ function PartnerAdvisoryCouncil() {
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                            lineNumber: 61,
+                                            lineNumber: 63,
                                             columnNumber: 17
                                         }, this)
                                     }, i, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                        lineNumber: 56,
+                                        lineNumber: 58,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                lineNumber: 54,
+                                lineNumber: 56,
                                 columnNumber: 11
                             }, this)
                         ]

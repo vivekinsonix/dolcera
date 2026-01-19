@@ -29,12 +29,14 @@ export default function PartnerAdvisoryCouncil() {
         {/* Section heading */}
         <p className="mb-2 text-sm font-medium uppercase tracking-wider text-gray-400">Expert Advisors</p>
 
-        <h1 className="mb-16 text-3xl font-extrabold leading-tight text-slate-900 md:text-5xl">Our Team</h1>
+        <h1 className="mb-16 text-3xl font-extrabold leading-tight dark:text-white  md:text-5xl">Our Team</h1>
 
         <div className="grid grid-cols-1 items-center text-left gap-20 lg:grid-cols-2">
           {/* LEFT CONTENT */}
           <div>
-            <h2 className="text-4xl font-semibold tracking-tight text-slate-900">Partner Advisory Council.</h2>
+            <h2 className="text-4xl font-semibold tracking-tight dark:text-white text-slate-900">
+              Partner Advisory Council.
+            </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
               We partner with industry leaders who bring specialized expertise and deep insights, working together to

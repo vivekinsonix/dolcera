@@ -1832,7 +1832,7 @@ const customTheme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_mod
             xl: 'h-[52px] px-6 text-base'
         },
         color: {
-            default: 'bg-secondary rounded-full uppercase border-secondary dark:text-white font-bold text-white hover:bg-secondary/90 cursor-pointer dark:bg-secondary focus:ring-none hover:scale-110 ' + 'dark:bg-primary dark:hover:bg-primary dark:focus:ring-none'
+            default: 'bg-secondary rounded-full uppercase border-secondary dark:text-white border-0 font-bold text-white hover:bg-secondary/90 cursor-pointer dark:bg-secondary focus:ring-none hover:scale-110 ' + 'dark:bg-secondary dark:hover:bg-secondary/90 dark:focus:ring-none'
         },
         outlineColor: {
             default: ' bg-primary  rounded-full font-bold uppercase text-white  border-0 rounded-0 hover:bg-primary/90 hover:shadow-[0_8px_30px_rgba(33,84,255,0.25),_0_0_20px_rgba(75,201,255,0.22)]  hover:text-accent focus:ring-primary-300 shadow-2xl dark:border-white dark:text-white dark:hover:border-accent dark:hover:bg-transparent cursor-pointer dark:hover:text-accent dark:focus:ring-primary'

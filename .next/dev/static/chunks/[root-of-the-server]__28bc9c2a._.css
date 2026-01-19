@@ -4815,6 +4815,13 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    .dark\:from-gray-900\/95 {
+      --tw-gradient-from: #111827f2;
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     .dark\:from-primary-900\/95 {
       --tw-gradient-from: #1a237ef2;
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -4825,6 +4832,14 @@
     .dark\:from-primary\/0 {
       --tw-gradient-from: #0000;
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:via-gray-900\/95 {
+      --tw-gradient-via: #111827f2;
+      --tw-gradient-via-stops: var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);
+      --tw-gradient-stops: var(--tw-gradient-via-stops);
     }
   }
 
@@ -4848,6 +4863,13 @@
     }
 
     .dark\:to-black\/90 {
+      --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:to-gray-900\/95 {
+      --tw-gradient-to: #111827f2;
       --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
     }
   }
@@ -5026,6 +5048,15 @@
     @media (hover: hover) {
       .dark\:hover\:bg-primary:hover {
         background-color: #3f51b5;
+      }
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @media (hover: hover) {
+      .dark\:hover\:bg-secondary\/90:hover {
+        background-color: #f44336e6;
+        background-color: lab(56.4618% 67.0908 49.4337 / .9);
       }
     }
   }
