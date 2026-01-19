@@ -64,8 +64,9 @@ export default function Home() {
       <ALLPortfolio />
       <Clients />
       <ServicesType />
-      <BlogsHomePage />
       <PartnerAdvisoryCouncil />
+      <BlogsHomePage />
+
       <Testimonials />
       {/* <Careers /> */}
     </main>
