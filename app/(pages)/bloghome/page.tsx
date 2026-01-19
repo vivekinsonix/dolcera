@@ -114,7 +114,7 @@ export default function BlogsHomePage() {
             <div className="grid md:grid-cols-8 gap-6">
               {/* ---------------- LEFT BLOGS ---------------- */}
               <aside className="md:col-span-2 space-y-4">
-                <article className="group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-primary bg-white shadow-xl">
+                <article className="group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl">
                   <Image
                     src="/blog3.jpg"
                     alt="alt-title"
@@ -140,7 +140,7 @@ export default function BlogsHomePage() {
                     </Link>
                   </div>
                 </article>
-                <article className="group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-primary bg-white shadow-xl">
+                <article className="group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl">
                   <Image
                     src="/Qualcomm-and-Samsung.jpg"
                     alt="alt-title"
@@ -174,7 +174,7 @@ export default function BlogsHomePage() {
                   <BlogSkeleton variant="featured" />
                 ) : (
                   featuredBlog && (
-                    <article className="group relative w-full aspect-square overflow-hidden rounded-sm dark:bg-primary bg-white shadow-xl">
+                    <article className="group relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl">
                       {featuredBlog.video?.[0]?.url && (
                         <video
                           src={featuredBlog.video[0].url}

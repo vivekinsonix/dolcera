@@ -4889,6 +4889,18 @@
   }
 
   @media (prefers-color-scheme: dark) {
+    .dark\:\!text-gray-200 {
+      color: #e5e7eb !important;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:\!text-white {
+      color: var(--color-white) !important;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
     .dark\:text-black {
       color: var(--color-black);
     }

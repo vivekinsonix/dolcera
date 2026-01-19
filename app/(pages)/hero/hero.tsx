@@ -138,7 +138,7 @@ export default function Hero({ subHeading, heading, loading, ourLegacy, coreDiff
             Get started with AI-powered IP excellence
           </p>
 
-          <Button size="lg" className="mx-auto" onClick={onSchedule}>
+          <Button size="lg" className="mx-auto">
             Book Demo
           </Button>
         </div>

@@ -36,3 +36,177 @@ Check the render method of `RootLayout`.
 [00:44:14.191] Server  LOG      ✓ Compiled in 229ms
 [00:47:35.904] Server  LOG      ✓ Compiled in 399ms
 [00:50:32.125] Server  LOG      ✓ Compiled in 384ms
+[00:52:04.130] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:52:04.130] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:57:35.713] Server  LOG      ✓ Compiled in 331ms
+[00:57:36.122] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:36.122] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:36.122] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:36.123] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:36.123] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:36.123] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:37.119] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:37.121] Browser ERROR   ./app/components/drawer/header.tsx:152:1
+Parsing ecmascript source code failed
+  150 | 
+  151 | export default Header;
+> 152 | 
+      | ^
+
+Expected '</', got '<eof>'
+
+Import trace:
+  Server Component:
+    ./app/components/drawer/header.tsx
+    ./app/layout.tsx
+[00:57:57.492] Server  LOG      ✓ Compiled in 275ms
+[00:58:00.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:15.155] Server  LOG      ✓ Compiled in 260ms
+[01:00:40.856] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:00:40.856] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:01:16.487] Server  LOG      ✓ Compiled in 608ms
+[01:02:26.903] Server  LOG      ✓ Compiled in 327ms
+[01:03:12.386] Server  LOG      ✓ Compiled in 193ms
+[01:03:29.549] Server  LOG      ✓ Compiled in 439ms
+[01:03:46.532] Server  LOG      ✓ Compiled in 207ms
+[01:04:09.249] Server  LOG      ✓ Compiled in 341ms
+[01:05:03.051] Server  LOG      ✓ Compiled in 202ms
+[01:05:31.279] Server  LOG      ✓ Compiled in 303ms
+[01:07:55.092] Server  LOG      ✓ Compiled in 215ms
+[01:08:49.385] Server  LOG      ✓ Compiled in 226ms

@@ -34,11 +34,9 @@ export default function PartnerAdvisoryCouncil() {
         <div className="grid grid-cols-1 items-center text-left gap-20 lg:grid-cols-2">
           {/* LEFT CONTENT */}
           <div>
-            <h2 className="text-4xl font-semibold tracking-tight dark:text-white text-slate-900">
-              Partner Advisory Council.
-            </h2>
+            <h2 className="text-4xl font-semibold tracking-tight dark:!text-white ">Partner Advisory Council.</h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-relaxed text-slate-600">
+            <p className="mt-6 max-w-xl text-lg leading-relaxed dark:!text-gray-200 text-slate-600">
               We partner with industry leaders who bring specialized expertise and deep insights, working together to
               help organizations navigate and overcome complex business challenges.
             </p>

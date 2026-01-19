@@ -380,7 +380,7 @@ function BlogsHomePage() {
                                             className: "md:col-span-2 space-y-4",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-primary bg-white shadow-xl",
+                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/blog3.jpg",
@@ -442,7 +442,7 @@ function BlogsHomePage() {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-primary bg-white shadow-xl",
+                                                    className: "group text-left relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                             src: "/Qualcomm-and-Samsung.jpg",
@@ -518,7 +518,7 @@ function BlogsHomePage() {
                                                 lineNumber: 174,
                                                 columnNumber: 19
                                             }, this) : featuredBlog && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                                                className: "group relative w-full aspect-square overflow-hidden rounded-sm dark:bg-primary bg-white shadow-xl",
+                                                className: "group relative w-full aspect-square overflow-hidden rounded-sm dark:bg-gray-900 bg-white shadow-xl",
                                                 children: [
                                                     featuredBlog.video?.[0]?.url && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                                                         src: featuredBlog.video[0].url,
@@ -1308,7 +1308,6 @@ function Hero({ subHeading, heading, loading, ourLegacy, coreDifferentiars, onSc
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$flowbite$2d$react$2f$dist$2f$components$2f$Button$2f$Button$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                                 size: "lg",
                                 className: "mx-auto",
-                                onClick: onSchedule,
                                 children: "Book Demo"
                             }, void 0, false, {
                                 fileName: "[project]/app/(pages)/hero/hero.tsx",
@@ -2566,7 +2565,7 @@ function ServicesType() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                    href: "/blogs",
+                    href: "/#services",
                     className: "mt-10 mx-auto text-center w-full inline-block text-white hover:underline",
                     children: "View All Services →"
                 }, void 0, false, {
@@ -2672,7 +2671,7 @@ function PartnerAdvisoryCouncil() {
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                        className: "text-4xl font-semibold tracking-tight dark:text-white text-slate-900",
+                                        className: "text-4xl font-semibold tracking-tight dark:!text-white ",
                                         children: "Partner Advisory Council."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
@@ -2680,11 +2679,11 @@ function PartnerAdvisoryCouncil() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-6 max-w-xl text-lg leading-relaxed text-slate-600",
+                                        className: "mt-6 max-w-xl text-lg leading-relaxed dark:!text-gray-200 text-slate-600",
                                         children: "We partner with industry leaders who bring specialized expertise and deep insights, working together to help organizations navigate and overcome complex business challenges."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 39,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2697,13 +2696,13 @@ function PartnerAdvisoryCouncil() {
                                                 children: "›"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 49,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                        lineNumber: 46,
+                                        lineNumber: 44,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -2723,17 +2722,17 @@ function PartnerAdvisoryCouncil() {
                                             className: "object-cover"
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 61,
                                             columnNumber: 17
                                         }, this)
                                     }, i, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                        lineNumber: 58,
+                                        lineNumber: 56,
                                         columnNumber: 15
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/(pages)/teamshome/page.tsx",
-                                lineNumber: 56,
+                                lineNumber: 54,
                                 columnNumber: 11
                             }, this)
                         ]

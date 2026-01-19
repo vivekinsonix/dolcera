@@ -83,7 +83,7 @@ export default function ServicesType() {
           </div>
         </div>
 
-        <Link href="/blogs" className="mt-10 mx-auto text-center w-full inline-block text-white hover:underline">
+        <Link href="/#services" className="mt-10 mx-auto text-center w-full inline-block text-white hover:underline">
           View All Services →
         </Link>
       </section>

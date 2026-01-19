@@ -15,7 +15,7 @@ const customTheme = createTheme({
       base: 'flex items-center space-x-2 text-2xl font-bold text-primarylight',
     },
     toggle: {
-      base: 'text-accent hover:text-accent focus:ring-0 bg-transaprent focus:ring-accent rounded-lg',
+      base: 'text-gray-400 hover:text-accent focus:ring-0 bg-transaprent focus:ring-accent rounded-lg',
     },
     collapse: {
       base: 'mt-8 md:mt-0 flex flex-col md:flex-row md:space-x-6 !border-0',

@@ -700,7 +700,7 @@ const Header = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/#blogs",
                                 onClick: ()=>setIsMenuOpen(false),
-                                className: "inline-block text-left pb-4 dark:text-primary-50 text-lg md:text-base",
+                                className: `dark:text-primary-50 ${scrolled ? 'text-black' : 'text-white'} hover:text-blue-400 text-lg md:text-base`,
                                 children: "Blogs"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/drawer/header.tsx",
@@ -713,7 +713,7 @@ const Header = ()=>{
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/drawer/header.tsx",
-                                lineNumber: 131,
+                                lineNumber: 133,
                                 columnNumber: 11
                             }, ("TURBOPACK compile-time value", void 0))
                         ]
@@ -733,7 +733,7 @@ const Header = ()=>{
                 onClose: closeDrawer
             }, void 0, false, {
                 fileName: "[project]/app/components/drawer/header.tsx",
-                lineNumber: 144,
+                lineNumber: 146,
                 columnNumber: 7
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -1805,7 +1805,7 @@ const customTheme = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_mod
             base: 'flex items-center space-x-2 text-2xl font-bold text-primarylight'
         },
         toggle: {
-            base: 'text-accent hover:text-accent focus:ring-0 bg-transaprent focus:ring-accent rounded-lg'
+            base: 'text-gray-400 hover:text-accent focus:ring-0 bg-transaprent focus:ring-accent rounded-lg'
         },
         collapse: {
             base: 'mt-8 md:mt-0 flex flex-col md:flex-row md:space-x-6 !border-0'
