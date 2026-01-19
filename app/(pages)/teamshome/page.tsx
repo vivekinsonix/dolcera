@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const advisors = [
   '/teams/samir.jpg',
-  '/teams/lg.jpg',
+  '/teams/LG.jpg',
   '/teams/mb.jpg',
   '/teams/Arron_Zhu.jpg',
   '/teams/Stanely_Zheng.jpg',
