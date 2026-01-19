@@ -103,12 +103,12 @@ const Header: React.FC = () => {
           <Link
             href="/#blogs"
             onClick={() => setIsMenuOpen(false)}
-            className={`dark:text-primary-50 block pb-4 ${navTextColor} hover:text-blue-400`}
+            className={`inline-block text-left mt-3 dark:text-primary-50  pb-4 ${navTextColor} hover:text-blue-400`}
           >
             Blogs
           </Link>
 
-          <Button outline className="mt-3">
+          <Button outline className="my-3">
             Contact Us
           </Button>
         </NavbarCollapse>

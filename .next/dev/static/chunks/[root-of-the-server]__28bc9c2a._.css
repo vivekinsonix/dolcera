@@ -774,6 +774,10 @@
     margin-block: calc(var(--spacing) * 2);
   }
 
+  .my-3 {
+    margin-block: calc(var(--spacing) * 3);
+  }
+
   .my-5 {
     margin-block: calc(var(--spacing) * 5);
   }
@@ -2719,6 +2723,16 @@
     }
   }
 
+  .bg-white\/90 {
+    background-color: #ffffffe6;
+  }
+
+  @supports (color: color-mix(in lab, red, red)) {
+    .bg-white\/90 {
+      background-color: color-mix(in oklab, var(--color-white) 90%, transparent);
+    }
+  }
+
   .bg-yellow-100 {
     background-color: #fdf6b2;
   }
@@ -4422,6 +4436,12 @@
     .md\:rounded-l-lg {
       border-top-left-radius: var(--radius-lg);
       border-bottom-left-radius: var(--radius-lg);
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:bg-transparent {
+      background-color: #0000;
     }
   }
 

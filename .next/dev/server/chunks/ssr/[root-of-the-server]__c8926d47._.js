@@ -735,7 +735,7 @@ const Header = ()=>{
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                 href: "/#blogs",
                                 onClick: ()=>setIsMenuOpen(false),
-                                className: `dark:text-primary-50 block pb-4 ${navTextColor} hover:text-blue-400`,
+                                className: `inline-block text-left mt-3 dark:text-primary-50  pb-4 ${navTextColor} hover:text-blue-400`,
                                 children: "Blogs"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/drawer/header.tsx",
@@ -744,7 +744,7 @@ const Header = ()=>{
                             }, ("TURBOPACK compile-time value", void 0)),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$flowbite$2d$react$2f$dist$2f$components$2f$Button$2f$Button$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Button"], {
                                 outline: true,
-                                className: "mt-3",
+                                className: "my-3",
                                 children: "Contact Us"
                             }, void 0, false, {
                                 fileName: "[project]/app/components/drawer/header.tsx",

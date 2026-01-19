@@ -421,3 +421,14 @@ See https://react.dev/link/invalid-hook-call for tips about how to debug and fix
 [02:47:09.501] Server  LOG      ✓ Compiled in 901ms
 [02:47:28.738] Server  LOG      ✓ Compiled in 879ms
 [02:48:03.741] Server  LOG      ✓ Compiled in 366ms
+[02:52:45.547] Server  LOG      ✓ Compiled in 371ms
+[02:53:02.989] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:53:25.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:53:28.423] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:53:30.666] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[02:53:41.887] Server  LOG      ✓ Compiled in 395ms
+[02:54:39.887] Server  LOG      ✓ Compiled in 1115ms
+[02:55:27.565] Server  LOG      ✓ Compiled in 863ms
+[02:55:57.384] Server  LOG      ✓ Compiled in 606ms
+[02:56:18.726] Server  LOG      ✓ Compiled in 816ms
+[02:56:40.416] Server  LOG      ✓ Compiled in 481ms
