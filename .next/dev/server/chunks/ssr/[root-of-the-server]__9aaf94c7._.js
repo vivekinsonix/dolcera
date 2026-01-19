@@ -349,7 +349,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$theme$2e$tsx__$5b$app
 ;
 const metadata = {
     title: 'Dolcera',
-    description: 'Empowering digital solutions by Insonix',
+    description: 'Patent Analysis & Market Research services - Dolcera',
     robots: {
         index: true,
         follow: true,

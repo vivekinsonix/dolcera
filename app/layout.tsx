@@ -23,7 +23,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'Dolcera',
-  description: 'Empowering digital solutions by Insonix',
+  description: 'Patent Analysis & Market Research services - Dolcera',
   robots: {
     index: true,
     follow: true,
