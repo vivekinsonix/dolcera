@@ -1,0 +1,28 @@
+<svg width="260" height="240" viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .label {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 150px;
+        fill: #ffffff;
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+
+  <!-- IN BLOCK -->
+  <!-- Base -->
+  <path d="M0,20 Q0,0 20,0 H240 Q260,0 260,20 V240 H0 Z" fill="#1659C7"/>
+  <!-- Header -->
+  <path d="M0,20 Q0,0 20,0 H240 Q260,0 260,20 V56 H0 Z" fill="#2D7FF9"/>
+  <!-- Browser controls -->
+  <circle cx="28" cy="28" r="6" fill="#BFD9FF"/>
+  <circle cx="48" cy="28" r="6" fill="#BFD9FF"/>
+  <circle cx="68" cy="28" r="6" fill="#BFD9FF"/>
+  <!-- Search bar -->
+  <rect x="100" y="20" rx="10" ry="10" width="120" height="16" fill="#BFD9FF"/>
+  <!-- Text -->
+  <text x="130" y="160" class="label">IN</text>
+</svg>

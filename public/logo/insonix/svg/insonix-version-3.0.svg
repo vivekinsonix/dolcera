@@ -1,0 +1,89 @@
+<svg width="900" height="240" viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg">
+ 
+  <defs>
+    <style>
+      .label {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 132px;
+        fill: #ffffff;
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+    </style>
+ 
+    <!-- Subtle reversed gradients (dark → light) -->
+    <linearGradient id="gradIN" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1558C9"/>
+      <stop offset="100%" stop-color="#1F6FE8"/>
+    </linearGradient>
+ 
+    <linearGradient id="gradSO" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141A20"/>
+      <stop offset="100%" stop-color="#232C35"/>
+    </linearGradient>
+ 
+    <linearGradient id="gradNIX" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0C5E3C"/>
+      <stop offset="100%" stop-color="#137C50"/>
+    </linearGradient>
+  </defs>
+ 
+  <!-- ================= IN ================= -->
+  <g transform="translate(0,0)">
+    <path d="M0,20 Q0,0 20,0 H260 V240 H0 Z" fill="url(#gradIN)"/>
+ 
+    <!-- Browser cues -->
+    <circle cx="28" cy="32" r="6" fill="#4A86E8" opacity="0.45"/>
+    <circle cx="48" cy="32" r="6" fill="#4A86E8" opacity="0.45"/>
+    <circle cx="68" cy="32" r="6" fill="#4A86E8" opacity="0.45"/>
+    <rect x="100" y="26" rx="10" ry="10" width="120" height="16"
+          fill="#4A86E8" opacity="0.40"/>
+ 
+    <text x="130" y="150" class="label">IN</text>
+  </g>
+ 
+  <!-- ================= SO ================= -->
+  <g transform="translate(270,0)">
+    <rect x="0" y="0" width="260" height="240" fill="url(#gradSO)"/>
+ 
+    <!-- IDE cues -->
+    <circle cx="28" cy="32" r="6" fill="#5C6670" opacity="0.34"/>
+    <circle cx="48" cy="32" r="6" fill="#5C6670" opacity="0.34"/>
+    <circle cx="68" cy="32" r="6" fill="#5C6670" opacity="0.34"/>
+ 
+    <text x="130" y="150" class="label">SO</text>
+  </g>
+ 
+  <!-- ================= NIX ================= -->
+  <g transform="translate(540,0)">
+    <!-- Body with true 45° SIM-style chamfer (ΔX = ΔY = 56) -->
+    <path d="
+      M0,0
+      H300
+      Q320,0 320,20
+      V184
+      L264,240
+      H0
+      Z" fill="url(#gradNIX)"/>
+ 
+    <!-- Aluminium PCB nodes (A, B, C) -->
+    <circle cx="28" cy="32" r="6" fill="#AFC6B0" opacity="0.28"/>
+    <circle cx="48" cy="32" r="6" fill="#AFC6B0" opacity="0.28"/>
+    <circle cx="68" cy="32" r="6" fill="#AFC6B0" opacity="0.28"/>
+ 
+    <!-- Path A: diagonal down → straight -->
+    <path d="M28 32 L46 46 H210"
+          stroke="#AFC6B0" stroke-width="2.6" fill="none" opacity="0.26"/>
+ 
+    <!-- Path B: diagonal up → straight -->
+    <path d="M48 32 L66 18 H230"
+          stroke="#AFC6B0" stroke-width="2.6" fill="none" opacity="0.28"/>
+ 
+    <!-- Path C: straight -->
+    <path d="M68 32 H260"
+          stroke="#AFC6B0" stroke-width="2.8" fill="none" opacity="0.30"/>
+ 
+    <text x="160" y="150" class="label">NIX</text>
+  </g>
+</svg>

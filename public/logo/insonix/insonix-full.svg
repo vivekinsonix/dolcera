@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240">
+  <defs>
+    <style>
+      .label {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        fill: #ffffff;
+        dominant-baseline: middle;
+        text-anchor: middle;
+        transition: opacity 0.3s ease;
+        pointer-events: none;
+      }
+
+      .short { font-size: 150px; opacity: 1; }
+      .full { font-size: 96px; opacity: 0; }
+
+      .block { transition: all 0.5s ease; cursor: pointer; opacity: 1; }
+
+      /* Fade other blocks when hovering one */
+      svg:hover .block:not(:hover) { opacity: 0.2; }
+
+      /* Hide short label on hover */
+      .block:hover .short { opacity: 0; }
+
+      /* Expand hovered block to cover all SVG */
+      .block:hover { transform: translateX(0) scaleX(3.5) scaleY(1.1); transform-origin: left top; z-index: 10; }
+
+      /* Show corresponding full text in center */
+      .full-texts text { opacity: 0; transition: opacity 0.3s ease; fill: #ffffff; }
+      .in:hover ~ .full-texts .internet { opacity: 1; }
+      .so:hover ~ .full-texts .software { opacity: 1; }
+      .nix:hover ~ .full-texts .electronics { opacity: 1; }
+    </style>
+  </defs>
+
+  <!-- IN BLOCK -->
+  <g class="block in" transform="translate(0,0)">
+    <path d="M0,20 Q0,0 20,0 H240 Q260,0 260,20 V240 H0 Z" fill="#1659C7"/>
+    <path d="M0,20 Q0,0 20,0 H240 Q260,0 260,20 V56 H0 Z" fill="#2D7FF9"/>
+    <circle cx="28" cy="28" r="6" fill="#2154ff"/>
+    <circle cx="48" cy="28" r="6" fill="#2154ff"/>
+    <circle cx="68" cy="28" r="6" fill="#2154ff"/>
+    <rect x="100" y="20" rx="10" ry="10" width="120" height="16" fill="#2154ff"/>
+    <text x="130" y="160" class="label short">IN</text>
+  </g>
+
+  <!-- SO BLOCK -->
+  <g class="block so" transform="translate(270,0)">
+    <rect x="0" y="0" width="260" height="240" fill="#1C242C"/>
+    <rect x="0" y="0" width="260" height="56" fill="#3A444D"/>
+    <circle cx="28" cy="28" r="6" fill="#7C8A96"/>
+    <circle cx="48" cy="28" r="6" fill="#7C8A96"/>
+    <circle cx="68" cy="28" r="6" fill="#7C8A96"/>
+    <text x="130" y="160" class="label short">SO</text>
+  </g>
+
+  <!-- NIX BLOCK -->
+  <g class="block nix" transform="translate(540,0)">
+    <path d="M0,0 H320 V200 Q320,240 280,240 H0 Z" fill="#0F6F46"/>
+    <rect x="0" y="0" width="320" height="56" fill="#2E9B63"/>
+    <line x1="190" y1="110" x2="290" y2="110" stroke="#6FD6AE" stroke-width="2" opacity="0.45"/>
+    <line x1="210" y1="140" x2="300" y2="140" stroke="#6FD6AE" stroke-width="2" opacity="0.45"/>
+    <line x1="190" y1="155" x2="270" y2="155" stroke="#6FD6AE" stroke-width="2" opacity="0.45"/>
+    <circle cx="290" cy="110" r="4" fill="#6FD6AE" opacity="0.6"/>
+    <circle cx="300" cy="140" r="4" fill="#6FD6AE" opacity="0.6"/>
+    <circle cx="270" cy="155" r="4" fill="#6FD6AE" opacity="0.6"/>
+    <text x="160" y="160" class="label short">NIX</text>
+  </g>
+
+  <!-- Full hover text in center -->
+  <g class="full-texts">
+    <text x="450" y="120" class="full internet">Internet</text>
+    <text x="450" y="120" class="full software">Software</text>
+    <text x="450" y="120" class="full electronics">Electronics</t

@@ -1,0 +1,3 @@
+{
+  "/(pages)/careers/careersdetail/[id]/page": "app/(pages)/careers/careersdetail/[id]/page.js"
+}

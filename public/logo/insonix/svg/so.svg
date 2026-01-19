@@ -1,0 +1,28 @@
+<svg width="260" height="240" viewBox="0 0 260 240" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .label {
+        font-family: Inter, Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 132px;
+        fill: #ffffff;
+        dominant-baseline: middle;
+        text-anchor: middle;
+      }
+    </style>
+
+    <linearGradient id="gradSO" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141A20"/>
+      <stop offset="100%" stop-color="#232C35"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="260" height="240" fill="url(#gradSO)"/>
+
+  <!-- IDE cues -->
+  <circle cx="28" cy="32" r="6" fill="#5C6670" opacity="0.34"/>
+  <circle cx="48" cy="32" r="6" fill="#5C6670" opacity="0.34"/>
+  <circle cx="68" cy="32" r="6" fill="#5C6670" opacity="0.34"/>
+
+  <text x="130" y="140" class="label">SO</text>
+</svg>
