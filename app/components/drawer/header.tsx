@@ -36,7 +36,7 @@ const Header: React.FC = () => {
     if (!isHomePage) return;
 
     const handleScroll = () => {
-      setScrolled(window.scrollY > 200);
+      setScrolled(window.scrollY > 100);
     };
 
     window.addEventListener('scroll', handleScroll);

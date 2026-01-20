@@ -585,7 +585,7 @@ const Header = ()=>{
             if (!isHomePage) return;
             const handleScroll = {
                 "Header.useEffect.handleScroll": ()=>{
-                    setScrolled(window.scrollY > 200);
+                    setScrolled(window.scrollY > 100);
                 }
             }["Header.useEffect.handleScroll"];
             window.addEventListener('scroll', handleScroll);
