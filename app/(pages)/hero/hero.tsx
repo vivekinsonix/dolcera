@@ -131,7 +131,7 @@ export default function Hero({ subHeading, heading, loading, ourLegacy, coreDiff
         {/* Content */}
         <div className="relative container mx-auto px-4">
           <h1 className="mb-6 text-4xl text-white font-bold leading-tight tracking-tight dark:text-white md:text-6xl lg:text-7xl">
-            Shaping <span className="text-secondary">AI</span> for <span className="text-secondary">IP</span> since 2011
+            Shaping <span className="text-secondary">AI for IP</span> since 2011
           </h1>
 
           <p className="mx-auto mb-10 max-w-4xl text-lg text-primary-50 dark:text-gray-300 md:text-xl lg:text-2xl">
