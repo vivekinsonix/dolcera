@@ -80,3 +80,6 @@ Import trace:
 [00:48:28.838] Server  LOG      ✓ Compiled in 371ms
 [00:48:59.788] Server  LOG      ✓ Compiled in 303ms
 [00:49:34.756] Server  LOG      ✓ Compiled in 274ms
+[01:05:26.751] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:05:28.263] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[01:05:31.186] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
