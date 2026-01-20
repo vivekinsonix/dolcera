@@ -106,15 +106,15 @@ export default function About({ ourLegacy, coreDifferentiars, loading }: Props) 
           <div className="mt-12 grid grid-cols-1 items-center gap-12 md:mt-16 md:grid-cols-2">
             {/* Text */}
             <article className="order-2  space-y-6 text-left md:order-1" id="about-description">
-              <p className="text-base leading-relaxed  md:text-lg lg:text-lg ">
+              <p className="text-base leading-relaxed  md:text-md lg:text-md ">
                 Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter
                 experts analyze several million patents a year using our machine-learning platform.
               </p>
-              <p className="text-base leading-relaxed   md:text-lg lg:text-lg ">
+              <p className="text-base leading-relaxed   md:text-md lg:text-md ">
                 We offer industry-leading software platforms, and a suite of services in the intellectual property space
                 for dozens of world’s leading corporations.
               </p>
-              <p className="text-base leading-relaxed   md:text-lg lg:text-lg ">
+              <p className="text-base leading-relaxed   md:text-md lg:text-md ">
                 Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter
                 experts analyze several million patents a year using our machine-learning platform.
               </p>

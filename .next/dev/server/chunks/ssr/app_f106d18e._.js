@@ -961,7 +961,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                     id: "about-description",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base leading-relaxed  md:text-lg lg:text-lg ",
+                                            className: "text-base leading-relaxed  md:text-md lg:text-md ",
                                             children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
@@ -969,7 +969,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base leading-relaxed   md:text-lg lg:text-lg ",
+                                            className: "text-base leading-relaxed   md:text-md lg:text-md ",
                                             children: "We offer industry-leading software platforms, and a suite of services in the intellectual property space for dozens of world’s leading corporations."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
@@ -977,7 +977,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base leading-relaxed   md:text-lg lg:text-lg ",
+                                            className: "text-base leading-relaxed   md:text-md lg:text-md ",
                                             children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
@@ -2575,7 +2575,7 @@ function PartnerAdvisoryCouncil() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "mt-6 max-w-xl text-lg leading-relaxed  ",
+                                        className: "mt-6 max-w-xl text-md leading-relaxed  ",
                                         children: "We partner with industry leaders who bring specialized expertise and deep insights, working together to help organizations navigate and overcome complex business challenges."
                                     }, void 0, false, {
                                         fileName: "[project]/app/(pages)/teamshome/page.tsx",

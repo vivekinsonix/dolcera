@@ -36,7 +36,7 @@ export default function PartnerAdvisoryCouncil() {
           <div>
             <h2 className="text-4xl font-semibold tracking-tight  ">Partner Advisory Council.</h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-relaxed  ">
+            <p className="mt-6 max-w-xl text-md leading-relaxed  ">
               We partner with industry leaders who bring specialized expertise and deep insights, working together to
               help organizations navigate and overcome complex business challenges.
             </p>

@@ -159,7 +159,7 @@ export default function Footer() {
               <div className="mb-2"></div>
               <img src="/logo/logo_dolcera-dark.svg" alt="insonix" width="130" className=" mb-2 dark:hidden" />
               <img src="/logo/logo_dolcera-dark.svg" alt="insonix" width="130" className=" mb-2 hidden dark:block" />
-              <p className="text-white mb-0">
+              <p className="text-gray-300 mb-0 text-md leading-relaxed ">
                 Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter
                 experts analyze several million patents a year using our machine-learning platform.
               </p>
@@ -241,7 +241,7 @@ export default function Footer() {
         {/* How-to-contact section */}
         <div>
           <h3 className="text-2xl font-semibold mb-2 text-white !text-white">How can we assist you?</h3>
-          <p className="text-white mb-6">
+          <p className="text-gray-300 mb-6 text-md leading-relaxed">
             We value the opportunity to connect with you. Please submit your inquiries and feedback, and our experienced
             professionals are ready to assist you.
           </p>

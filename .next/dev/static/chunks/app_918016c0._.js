@@ -1460,7 +1460,7 @@ function Footer() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "text-white mb-0",
+                                        className: "text-gray-300 mb-0 text-md leading-relaxed ",
                                         children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                     }, void 0, false, {
                                         fileName: "[project]/app/layout/footer.tsx",
@@ -1592,7 +1592,7 @@ function Footer() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-white mb-6",
+                                className: "text-gray-300 mb-6 text-md leading-relaxed",
                                 children: "We value the opportunity to connect with you. Please submit your inquiries and feedback, and our experienced professionals are ready to assist you."
                             }, void 0, false, {
                                 fileName: "[project]/app/layout/footer.tsx",
