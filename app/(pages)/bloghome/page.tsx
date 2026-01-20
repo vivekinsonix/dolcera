@@ -126,7 +126,7 @@ export default function BlogsHomePage() {
 
                     <h2 className="text-xl">The Pulse of American Innovation: A Decade of Patent Filings in the USA</h2>
 
-                    <p className="mt-4 text-sm opacity-0 max-h-0 overflow-hidden transition-all duration-[500ms] ease-linear group-hover:opacity-100 group-hover:max-h-40">
+                    <p className="mt-4 leading-relaxed  text-sm opacity-0 max-h-0 overflow-hidden transition-all duration-[500ms] ease-linear group-hover:opacity-100 group-hover:max-h-40">
                       Protection versus progress. Who will shape the future?
                     </p>
 
@@ -197,7 +197,7 @@ export default function BlogsHomePage() {
 
                         <h2 className="text-xl">Summary Report from 3GPP plenaries</h2>
 
-                        <p className="mt-4 text-sm">
+                        <p className="mt-4 text-sm leading-relaxed ">
                           3GPP’s most recent round of plenary gatherings were held in Maastricht, Netherlands, from 18th
                           to 22nd March, 2024. The gathering witnessed a varied spectrum of stakeholders and close to
                           1700 technical documents (TDoc) were submitted for discussion. In view of 3GPP’s way forward
@@ -230,7 +230,7 @@ export default function BlogsHomePage() {
 
                           <h2 className="text-xl">Dolcera analysis in IAM</h2>
 
-                          <p className="mt-4 text-sm ">
+                          <p className="mt-4 text-sm leading-relaxed ">
                             If Nvidia purchases Arm it will create a processor patent powerhouse
                           </p>
 

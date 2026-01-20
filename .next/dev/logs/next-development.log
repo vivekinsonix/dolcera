@@ -1,434 +1,76 @@
-[00:00:19.364] Server  LOG      ✓ Ready in 15.1s
-[00:00:23.162] Server  LOG      ○ Compiling / ...
-[00:00:48.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:24.818] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:25.365] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:10:28.011] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:11:10.087] Server  LOG      ✓ Compiled in 322ms
-[00:29:04.461] Server  LOG      ✓ Compiled in 222ms
-[00:30:02.992] Server  LOG      ✓ Compiled in 370ms
-[00:32:50.618] Server  LOG      ✓ Compiled in 909ms
-[00:32:51.323] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:32:51.330] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:32:51.772] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:32:51.774] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-[00:32:52.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:52.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:32:54.152] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:32:54.321] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
-
-Check the render method of `RootLayout`.
-[00:36:46.520] Server  LOG      ✓ Compiled in 391ms
-[00:36:46.942] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__9aaf94c7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:36:46.944] Server  ERROR    ⨯ ReferenceError: CookieBanner is not defined
-[00:36:47.430] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__9aaf94c7._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:36:47.431] Server  ERROR    ⨯ ReferenceError: CookieBanner is not defined
-[00:36:47.945] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:47.995] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:49.130] Browser ERROR   uncaughtError: ReferenceError: CookieBanner is not defined
-[00:36:49.154] Browser ERROR   uncaughtError: ReferenceError: CookieBanner is not defined
-[00:36:52.627] Server  LOG      ✓ Compiled in 368ms
-[00:36:54.846] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:36:55.954] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:43:38.344] Server  LOG      ✓ Compiled in 390ms
-[00:44:14.191] Server  LOG      ✓ Compiled in 229ms
-[00:47:35.904] Server  LOG      ✓ Compiled in 399ms
-[00:50:32.125] Server  LOG      ✓ Compiled in 384ms
-[00:52:04.130] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:52:04.130] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:57:35.713] Server  LOG      ✓ Compiled in 331ms
-[00:57:36.122] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:36.122] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
+[00:00:53.695] Server  LOG      ○ Compiling proxy ...
+[00:01:04.846] Server  LOG      ✓ Ready in 48.2s
+[00:01:13.668] Server  LOG      ○ Compiling / ...
+[00:01:52.635] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:24.597] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:11:18.036] Server  LOG      ✓ Compiled in 1209ms
+[00:11:20.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:11.412] Server  LOG      ✓ Compiled in 807ms
+[00:12:14.501] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:14.613] Browser WARN    Image with src "/about1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:12:18.416] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:20.530] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:12:22.600] Browser WARN    Image with src "/about1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:15:16.150] Server  LOG      ✓ Compiled in 1159ms
+[00:15:21.755] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:24.302] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:15:24.853] Browser WARN    Image with src "/about1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:16:40.343] Server  LOG      ✓ Compiled in 299ms
+[00:16:45.603] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:49.694] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:16:53.591] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:56.049] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:11.708] Server  LOG      ✓ Compiled in 1172ms
+[00:22:13.911] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:51.625] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:22:51.625] Browser WARN    Image with src "/about1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:22:54.263] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:22:56.119] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:24:09.136] Server  LOG      ✓ Compiled in 219ms
+[00:24:33.795] Server  LOG      ✓ Compiled in 199ms
+[00:26:01.642] Server  LOG      ✓ Compiled in 596ms
+[00:26:05.240] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:06.538] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:28:10.855] Server  LOG      ✓ Compiled in 812ms
+[00:28:12.767] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:28:13.186] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:28:15.185] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:29:07.439] Server  LOG      ✓ Compiled in 539ms
+[00:29:08.186] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: E:\Nikhil-sir\Dolcera\app\globals.css:1:1: Cannot apply unknown utility class `font-heading`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (E:\Nikhil-sir\Dolcera\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
 
 Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:36.122] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:36.123] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:29:31.057] Server  LOG      ✓ Compiled in 1979ms
+[00:30:09.689] Server  LOG      ✓ Compiled in 393ms
+[00:30:10.194] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: tailwindcss: E:\Nikhil-sir\Dolcera\app\globals.css:1:1: Cannot apply unknown utility class `font-heading`
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Root.error (turbopack:///[project]/node_modules/postcss/lib/node.js:146:32)]
+    [at Object.Once (E:\Nikhil-sir\Dolcera\node_modules\@tailwindcss\postcss\dist\index.js:10:6911)]
+    [at LazyResult.runAsync (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:293:11)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:34)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:23)]
 
 Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:36.123] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:36.123] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:37.119] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:37.120] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:37.121] Browser ERROR   ./app/components/drawer/header.tsx:152:1
-Parsing ecmascript source code failed
-  150 | 
-  151 | export default Header;
-> 152 | 
-      | ^
-
-Expected '</', got '<eof>'
-
-Import trace:
-  Server Component:
-    ./app/components/drawer/header.tsx
-    ./app/layout.tsx
-[00:57:57.492] Server  LOG      ✓ Compiled in 275ms
-[00:58:00.407] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:00:15.155] Server  LOG      ✓ Compiled in 260ms
-[01:00:40.856] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:00:40.856] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:01:16.487] Server  LOG      ✓ Compiled in 608ms
-[01:02:26.903] Server  LOG      ✓ Compiled in 327ms
-[01:03:12.386] Server  LOG      ✓ Compiled in 193ms
-[01:03:29.549] Server  LOG      ✓ Compiled in 439ms
-[01:03:46.532] Server  LOG      ✓ Compiled in 207ms
-[01:04:09.249] Server  LOG      ✓ Compiled in 341ms
-[01:05:03.051] Server  LOG      ✓ Compiled in 202ms
-[01:05:31.279] Server  LOG      ✓ Compiled in 303ms
-[01:07:55.092] Server  LOG      ✓ Compiled in 215ms
-[01:08:49.385] Server  LOG      ✓ Compiled in 226ms
-[01:12:33.101] Server  LOG      ✓ Compiled in 292ms
-[01:14:45.706] Server  LOG      ✓ Compiled in 359ms
-[01:17:57.935] Server  LOG      ✓ Compiled in 535ms
-[01:19:26.402] Server  LOG      ✓ Compiled in 190ms
-[01:19:56.820] Server  LOG      ✓ Compiled in 389ms
-[01:20:48.254] Server  LOG      ✓ Compiled in 242ms
-[01:20:55.928] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:21:08.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:21:09.103] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:21:32.673] Server  LOG      ✓ Compiled in 603ms
-[01:22:05.320] Server  LOG      ✓ Compiled in 504ms
-[01:23:32.246] Server  LOG      ✓ Compiled in 220ms
-[01:23:34.105] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:24:25.190] Server  LOG      ✓ Compiled in 618ms
-[01:24:52.945] Server  LOG      ✓ Compiled in 585ms
-[01:25:00.176] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:26:26.609] Server  LOG      ✓ Compiled in 299ms
-[01:29:32.754] Server  LOG      ✓ Compiled in 523ms
-[01:33:07.836] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:45:34.743] Server  LOG      ✓ Compiled in 1003ms
-[01:46:14.928] Server  LOG      ✓ Compiled in 1146ms
-[01:46:15.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:46:43.507] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:47:59.835] Server  LOG      ✓ Compiled in 346ms
-[01:48:10.613] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:49:25.485] Server  LOG      ✓ Compiled in 223ms
-[01:49:32.550] Server  LOG      ✓ Compiled in 334ms
-[01:55:08.102] Server  LOG      ✓ Compiled in 1685ms
-[01:55:09.630] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.656] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\node_modules_next_d8d53ab9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.664] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__c8926d47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.666] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.672] Server  ERROR    ⨯ Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[01:55:09.877] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.880] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\node_modules_next_d8d53ab9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.881] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__c8926d47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.882] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:09.884] Server  ERROR    ⨯ Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[01:55:10.173] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:10.174] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\node_modules_next_d8d53ab9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:10.176] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__c8926d47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:10.176] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[01:55:10.177] Server  ERROR    ⨯ Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[01:55:10.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:55:10.986] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:55:11.083] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:55:11.409] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[01:55:12.126] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[01:55:12.127] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[01:56:33.566] Server  LOG      ✓ Compiled in 624ms
-[01:56:33.606] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:33.607] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/drawer/header.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:56:33.616] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:33.621] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:33.622] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/drawer/header.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:56:33.670] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:33.671] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/drawer/header.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:56:33.674] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:33.696] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[01:56:36.682] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:56:37.272] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:56:37.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:56:38.067] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:56:39.131] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:58:36.748] Server  LOG      ✓ Compiled in 985ms
-[01:59:22.751] Server  LOG      ✓ Compiled in 794ms
-[02:01:23.552] Server  LOG      ✓ Compiled in 616ms
-[02:01:47.805] Server  LOG      ✓ Compiled in 695ms
-[02:02:18.406] Server  LOG      ✓ Compiled in 238ms
-[02:02:30.523] Server  LOG      ✓ Compiled in 259ms
-[02:03:31.943] Server  LOG      ✓ Compiled in 213ms
-[02:03:57.630] Server  LOG      ✓ Compiled in 244ms
-[02:04:08.296] Server  LOG      ✓ Compiled in 296ms
-[02:04:18.757] Server  LOG      ✓ Compiled in 440ms
-[02:04:54.426] Server  LOG      ✓ Compiled in 271ms
-[02:05:14.757] Server  LOG      ✓ Compiled in 226ms
-[02:05:29.395] Server  LOG      ✓ Compiled in 862ms
-[02:06:29.236] Server  LOG      ✓ Compiled in 1069ms
-[02:09:58.085] Server  LOG      ✓ Compiled in 625ms
-[02:10:06.706] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:10:39.034] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:10:55.685] Server  LOG      ✓ Compiled in 242ms
-[02:13:06.521] Server  LOG      ✓ Compiled in 1164ms
-[02:13:32.845] Server  LOG      ✓ Compiled in 353ms
-[02:13:43.329] Server  LOG      ✓ Compiled in 355ms
-[02:14:18.837] Server  LOG      ✓ Compiled in 259ms
-[02:15:26.198] Server  LOG      ✓ Compiled in 628ms
-[02:15:41.740] Server  LOG      ✓ Compiled in 549ms
-[02:15:59.646] Server  LOG      ✓ Compiled in 440ms
-[02:16:12.294] Server  LOG      ✓ Compiled in 328ms
-[02:16:28.287] Server  LOG      ✓ Compiled in 417ms
-[02:17:12.966] Server  LOG      ✓ Compiled in 378ms
-[02:17:32.492] Server  LOG      ✓ Compiled in 424ms
-[02:17:41.287] Server  LOG      ✓ Compiled in 347ms
-[02:17:57.758] Server  LOG      ✓ Compiled in 413ms
-[02:18:29.832] Server  LOG      ✓ Compiled in 372ms
-[02:19:43.192] Server  LOG      ✓ Compiled in 400ms
-[02:19:55.425] Server  LOG      ✓ Compiled in 527ms
-[02:20:13.419] Server  LOG      ✓ Compiled in 443ms
-[02:20:24.374] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:21:05.996] Server  LOG      ✓ Compiled in 390ms
-[02:21:11.509] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:21:36.689] Server  LOG      ✓ Compiled in 374ms
-[02:21:57.073] Server  LOG      ✓ Compiled in 304ms
-[02:22:08.168] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:22:39.876] Server  LOG      ✓ Compiled in 549ms
-[02:23:31.379] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:25:44.308] Server  LOG      ✓ Compiled in 434ms
-[02:26:01.115] Server  LOG      ✓ Compiled in 363ms
-[02:26:26.221] Server  LOG      ✓ Compiled in 394ms
-[02:27:21.737] Server  LOG      ✓ Compiled in 435ms
-[02:28:59.201] Server  LOG      ✓ Compiled in 301ms
-[02:29:54.710] Server  LOG      ✓ Compiled in 381ms
-[02:30:52.169] Server  LOG      ✓ Compiled in 415ms
-[02:35:50.813] Server  LOG      ✓ Compiled in 460ms
-[02:35:52.452] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:52.890] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\node_modules_next_d8d53ab9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:52.902] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__c8926d47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:52.917] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:52.936] Server  ERROR    ⨯ Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[02:35:54.007] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.026] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\node_modules_next_d8d53ab9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.029] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__c8926d47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.031] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.032] Server  ERROR    ⨯ Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[02:35:54.339] Server  ERROR   E:\Nikhil-sir\Dolcera\node_modules\next\dist\compiled\next-server\app-page-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.341] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\node_modules_next_d8d53ab9._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.341] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[root-of-the-server]__c8926d47._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.342] Server  ERROR   E:\Nikhil-sir\Dolcera\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[02:35:54.343] Server  ERROR    ⨯ Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[02:35:54.879] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:35:55.108] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[02:35:55.394] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:35:55.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:35:56.145] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[02:35:56.152] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
-1. You might have mismatching versions of React and the renderer (such as React DOM)
-2. You might be breaking the Rules of Hooks
-3. You might have more than one copy of React in the same app
-See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
-[02:36:17.748] Server  LOG      ✓ Compiled in 374ms
-[02:36:17.784] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:36:17.784] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/drawer/header.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:36:17.792] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:36:17.793] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/drawer/header.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:36:17.797] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:36:17.801] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:36:17.802] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./app/components/drawer/header.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[02:36:17.834] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:36:17.950] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[02:36:21.715] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:36:22.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:36:23.288] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:36:34.010] Server  LOG      ✓ Compiled in 439ms
-[02:36:35.775] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:36:35.776] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:37:40.945] Server  LOG      ✓ Compiled in 908ms
-[02:39:08.472] Server  LOG      ✓ Compiled in 983ms
-[02:40:19.927] Server  LOG      ✓ Compiled in 382ms
-[02:40:59.089] Server  LOG      ✓ Compiled in 406ms
-[02:41:19.096] Server  LOG      ✓ Compiled in 372ms
-[02:41:54.828] Server  LOG      ✓ Compiled in 612ms
-[02:46:18.068] Server  LOG      ✓ Compiled in 876ms
-[02:46:54.529] Server  LOG      ✓ Compiled in 842ms
-[02:47:09.501] Server  LOG      ✓ Compiled in 901ms
-[02:47:28.738] Server  LOG      ✓ Compiled in 879ms
-[02:48:03.741] Server  LOG      ✓ Compiled in 366ms
-[02:52:45.547] Server  LOG      ✓ Compiled in 371ms
-[02:53:02.989] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:53:25.973] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:53:28.423] Browser WARN    Image with src "http://localhost:3001/logo/logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:53:30.666] Browser WARN    Image with src "http://localhost:3001/about1.jpg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:53:41.887] Server  LOG      ✓ Compiled in 395ms
-[02:54:39.887] Server  LOG      ✓ Compiled in 1115ms
-[02:55:27.565] Server  LOG      ✓ Compiled in 863ms
-[02:55:57.384] Server  LOG      ✓ Compiled in 606ms
-[02:56:18.726] Server  LOG      ✓ Compiled in 816ms
-[02:56:40.416] Server  LOG      ✓ Compiled in 481ms
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[00:31:06.693] Server  LOG      ✓ Compiled in 1882ms
+[00:40:15.432] Server  LOG      ✓ Compiled in 840ms
+[00:40:20.444] Server  LOG      ✓ Compiled in 343ms
+[00:41:03.851] Server  LOG      ✓ Compiled in 229ms

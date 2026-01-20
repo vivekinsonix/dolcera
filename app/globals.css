@@ -3,6 +3,14 @@
 @source "../.flowbite-react/class-list.json";
 @plugin '@tailwindcss/typography';
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), sans-serif;
+}
 /* -------------------- Lists -------------------- */
 
 /* -------------------- Scroll Bar -------------------- */
@@ -33,8 +41,6 @@
 
 /* -------------------- Theme Variables -------------------- */
 @theme inline {
-  --default-font-family: var(--font-poppins);
-
   /* Base colors */
   --color-background: #ffffff;
   --color-foreground: #ffffff;

@@ -393,7 +393,7 @@ function BlogsHomePage() {
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                    className: "mt-4 text-sm opacity-0 max-h-0 overflow-hidden transition-all duration-[500ms] ease-linear group-hover:opacity-100 group-hover:max-h-40",
+                                                                    className: "mt-4 leading-relaxed  text-sm opacity-0 max-h-0 overflow-hidden transition-all duration-[500ms] ease-linear group-hover:opacity-100 group-hover:max-h-40",
                                                                     children: "Protection versus progress. Who will shape the future?"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/(pages)/bloghome/page.tsx",
@@ -543,7 +543,7 @@ function BlogsHomePage() {
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "mt-4 text-sm",
+                                                                className: "mt-4 text-sm leading-relaxed ",
                                                                 children: "3GPP’s most recent round of plenary gatherings were held in Maastricht, Netherlands, from 18th to 22nd March, 2024. The gathering witnessed a varied spectrum of stakeholders and close to 1700 technical documents (TDoc) were submitted for discussion. In view of 3GPP’s way forward development plans for 5G Advanced"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
@@ -606,7 +606,7 @@ function BlogsHomePage() {
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                className: "mt-4 text-sm ",
+                                                                className: "mt-4 text-sm leading-relaxed ",
                                                                 children: "If Nvidia purchases Arm it will create a processor patent powerhouse"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/(pages)/bloghome/page.tsx",
@@ -961,7 +961,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                     id: "about-description",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base  md:text-lg lg:text-lg ",
+                                            className: "text-base leading-relaxed  md:text-lg lg:text-lg ",
                                             children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
@@ -969,7 +969,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base  md:text-lg lg:text-lg ",
+                                            className: "text-base leading-relaxed   md:text-lg lg:text-lg ",
                                             children: "We offer industry-leading software platforms, and a suite of services in the intellectual property space for dozens of world’s leading corporations."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",
@@ -977,7 +977,7 @@ function About({ ourLegacy, coreDifferentiars, loading }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            className: "text-base  md:text-lg lg:text-lg ",
+                                            className: "text-base leading-relaxed   md:text-lg lg:text-lg ",
                                             children: "Dolcera is one of world’s largest patent analytics companies. Our team of in-house subject-matter experts analyze several million patents a year using our machine-learning platform."
                                         }, void 0, false, {
                                             fileName: "[project]/app/(pages)/hero/about.tsx",

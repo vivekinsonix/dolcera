@@ -1,48 +1,42 @@
-import { ThemeModeScript } from 'flowbite-react';
 import type { Metadata } from 'next';
-import { Geist, Geist_Mono } from 'next/font/google';
+import { ThemeModeScript } from 'flowbite-react';
 import { ThemeInit } from '../.flowbite-react/init';
+import { Poppins, Lato } from 'next/font/google';
+
+import './globals.css';
 
 import Header from './components/drawer/header';
+import Footer from './layout/footer';
 import GlobalSpinner from './components/spinner/GlobalSpinner';
 import Toaster from './components/toaster/Toaster';
-import { DrawerProvider } from './context/DrawerContext';
-import './globals.css';
-import Footer from './layout/footer';
 import ThemeWrapper from './theme';
+import { DrawerProvider } from './context/DrawerContext';
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const poppins = Poppins({
   subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'], // pick what you use
+  variable: '--font-sans', // 🔑 default font for Tailwind + Flowbite
 });
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const lato = Lato({
   subsets: ['latin'],
+  weight: ['400', '700', '900'],
+  variable: '--font-heading',
 });
 
 export const metadata: Metadata = {
   title: 'Dolcera',
   description: 'Patent Analysis & Market Research services - Dolcera',
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-    },
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning className={`${poppins.variable} ${lato.variable}`}>
       <head>
-        {/* Load theme BEFORE hydration to avoid the mismatch */}
         <ThemeModeScript />
       </head>
 
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white dark:bg-primary `}>
+      <body className="font-sans bg-white dark:bg-primary">
         <DrawerProvider>
           <ThemeWrapper>
             <ThemeInit />
@@ -51,11 +45,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Header />
 
             {children}
+
             <Footer />
-            <div
-              style={{ paddingBottom: 'env(safe-area-inset-bottom)' }}
-              className="fixed bottom-0 left-0 right-0 z-50 flex justify-center"
-            ></div>
           </ThemeWrapper>
         </DrawerProvider>
       </body>
